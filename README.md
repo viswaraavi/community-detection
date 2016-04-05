@@ -16,8 +16,13 @@ edges represent some social relationship. The properties belonging to each custo
 be treated as node attributes. Hence, market segmentation becomes the problem of community
 detection over attributed graphs, where the communities are formed based on graph structure as
 well as attribute similarities.
+
+
 Influence Propagation: It has been discovered that by targeting the influential users/groups,
 desirable marketing goals can be achieved. Therefore, one way to evaluate the quality of the
 market segments (communities) is to influence an entity in each segment and measure how fast
 the influence propagates over the entire network. The faster that influence propagates through
 the entire network, the more likely an advertising campaign, for example, will be successful.
+
+Goal: To implement a community detection algorithm for attributed graphs, find the relevant
+market segments, and evaluate the obtained segments via influence propagation.
